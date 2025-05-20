@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathália Martins | Psicóloga Clínica CRP 06/172409</title>
+    <style>
+        /* Estilos Globais */
+        :root {
+            --primary: #4a6fa5;
+            --secondary: #6b8cae;
+            --accent: #ff7e5f;
+            --light: #f8f9fa;
+            --dark: #343a40;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Seção Hero */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 1rem;
+            text-align: center;
+            background-color: white;
+        }
+
+        .hero-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--light);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 126, 95, 0.3);
+        }
+
+        .cta-button:hover {
+            background-color: #ff6a4f;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(255, 126, 95, 0.4);
+        }
+
+        /* Seção Sobre */
+        .about {
+            padding: 3rem 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--light);
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary);
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Seção Serviços */
+        .services {
+            padding: 3rem 1rem;
+            background-color: white;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background-color: var(--light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .service-title {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Seção Contato */
+        .contact {
+            padding: 3rem 1rem;
+            background-color: var(--light);
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-top: 1.5rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 1.8rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Nathália Martins</div>
+        <div class="tagline">Psicóloga Clínica | CRP 06/172409</div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <img src="https://i.imgur.com/aKlBZ1C.jpeg" alt="Nathália Martins - Psicóloga" class="hero-image">
+        <h1 class="hero-title">Saúde Emocional Começa Aqui</h1>
+        <p class="hero-subtitle">
+            Atendimento psicológico online e presencial com abordagem Terapia Cognitivo-Comportamental (TCC). 
+            Um espaço seguro e acolhedor para adolescentes, adultos e idosos.
+        </p>
+        <a href="https://wa.me/5511986690360" class="cta-button">AGENDE SUA CONSULTA INICIAL</a>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>
+            Olá! Meu nome é Nathália Martins, sou psicóloga clínica com mais de cinco anos de experiência em atendimento psicológico. 
+            Atuo com base na abordagem da Terapia Cognitivo-Comportamental (TCC), uma linha terapêutica baseada em evidências científicas, 
+            que busca compreender e transformar pensamentos, emoções e comportamentos que impactam o bem-estar e a qualidade de vida.
+        </p>
+        <p>
+            Meu compromisso é caminhar ao lado de cada paciente, com empatia, ética e responsabilidade, contribuindo para o 
+            desenvolvimento de recursos internos que promovam saúde emocional, equilíbrio e autonomia.
+        </p>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section class="services">
+        <h2 class="section-title">Como Posso Ajudar Você?</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🧠</div>
+                <h3 class="service-title">Ansiedade e Depressão</h3>
+                <p>Acompanhamento especializado para lidar com transtornos de ansiedade e depressão.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💖</div>
+                <h3 class="service-title">Autoestima e Autoconhecimento</h3>
+                <p>Desenvolvimento pessoal e fortalecimento da autoimagem positiva.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🤝</div>
+                <h3 class="service-title">Relacionamentos</h3>
+                <p>Orientação para lidar com conflitos e melhorar relações interpessoais.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🌱</div>
+                <h3 class="service-title">Transições de Vida</h3>
+                <p>Apoio em momentos de mudança e adaptação a novas realidades.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">😔</div>
+                <h3 class="service-title">Luto</h3>
+                <p>Acompanhamento especializado para processamento de perdas.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🧘‍♀️</div>
+                <h3 class="service-title">Gerenciamento de Estresse</h3>
+                <p>Técnicas para lidar com situações estressantes no dia a dia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p>Estou à disposição para tirar dúvidas ou agendar sua primeira consulta.</p>
+        <div class="contact-info">
+            <p>📞 (11) 98669-0360</p>
+            <p>✉️ nathalia.martinsdahora@gmail.com</p>
+            <p>📍 Atendimento Online e Presencial</p>
+        </div>
+        <a href="https://wa.me/5511986690360" class="cta-button">FALE COMIGO PELO WHATSAPP</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2023 Nathália Martins - Psicóloga Clínica CRP 06/172409</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
